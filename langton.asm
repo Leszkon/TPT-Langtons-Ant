@@ -1,13 +1,14 @@
 %include "common"
 
 ;Langton's Ant on R216K2A and RTerm P2
-;I probably messed the label names up but no matter
 
 
 ;This part is me figuring out the big terminal
 ;0001 00yy yyyx xxxx
 ;0001 0001 1001 0000
 
+
+;I probably messed the label names up but no matter
 
 init:
 	mov r1, 0x1190		;r1  - Position
