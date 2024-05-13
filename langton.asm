@@ -32,9 +32,9 @@ left:
 .end:
 
 	sub r1, 1		;Then change ant position
-	cmp [r1+0x0100], 0x0001	;If current cell is on, turn
-	je up			;If not, turn the other way
-				;And so on
+	cmp [r1+0x0100], 0x0001	;If current cell is on,
+	je up			;turn
+				;If not, turn the other way
 
 
 
